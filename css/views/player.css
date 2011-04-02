@@ -1,0 +1,8 @@
+header > * {
+	float: left;
+}
+
+	header #controls li {
+		float: left;
+		list-style: none;
+	}

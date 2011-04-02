@@ -16,6 +16,7 @@ var Song_View = (function() {
 		
 		initialize: function() {
 			var self = this;
+			self.model.view = self;
 			self.model.bind('change', function(song) {
 				self.render();
 			});

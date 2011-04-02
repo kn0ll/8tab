@@ -30,3 +30,11 @@
 		#songs tr th {
 			padding: 0 5px;
 		}
+		
+		#songs tr td.playing {
+			background-position: -9999px -9999px;
+		}
+		
+			#songs tr.playing td.playing {
+				background-position: -144px -160px
+			}

@@ -31,7 +31,14 @@ var Songs_View = Backbone.View.extend({
 	},
 	
 	play: function(e, song) {
-		Player.play(song);
+		var $row = $(e.target),
+			$playing = this.getPlaying();
+		$playing.removeClass('playing');
+		$row.addClass('playing');
+	},
+	
+	getPlaying: function() {
+		return $('tr.playing', this.el);
 	}
 
 });
