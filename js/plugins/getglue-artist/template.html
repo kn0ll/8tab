@@ -1,0 +1,11 @@
+<div class="clearfix">
+	<div class="img"><img src="<%= image %>" /></div>
+	<div class="info">
+		<h1><%= title %></h1>
+		<% if (description.length > 400) { %>
+			<p class="description"><%= description.substring(0, 400) %>...</p>
+		<% } else { %>
+			<p class="description"><%= description %></p>
+		<% } %>
+	</div>
+</div>

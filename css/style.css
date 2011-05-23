@@ -1,3 +1,10 @@
 html {
-	padding: 5px;
+	padding-bottom: 100px;
+	/* no text selection / text cursor */
+	-webkit-user-select: none;
+	cursor: default;
 }
+
+.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }

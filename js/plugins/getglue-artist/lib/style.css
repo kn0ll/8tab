@@ -1,0 +1,29 @@
+#getglue-artist {
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	background: #ebebeb;
+	-webkit-box-shadow: 0 0 20px #000;
+	padding: 15px;
+}
+
+	#getglue-artist .img  {
+		width: 75px;
+		height: 75px;
+		line-height: 75px;
+		margin-right: 15px;
+		float: left;
+		overflow: hidden;
+		background: #000;
+		-webkit-border-radius: 4px;
+	}
+	
+		#getglue-artist .img img {
+			vertical-align: middle;
+			width: 75px;
+		}
+
+	#getglue-artist .info {
+		float: left;
+		width: 750px;
+	}

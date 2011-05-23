@@ -1,8 +1,37 @@
-header > * {
-	float: left;
+header {
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#69a3cc),color-stop(1,#4881a8));
+	border-bottom: 1px solid #2c5d80;
+	border-top: 1px solid #408abf;
+	padding: 5px;
+	position: fixed;
+	width: 100%;
+	height: 35px;
+	z-index: 1;
 }
 
-	header #controls li {
+	header > * {
 		float: left;
-		list-style: none;
 	}
+
+		header #controls {
+			margin: 0;
+		}
+
+			header #controls li {
+				float: left;
+				list-style: none;
+			}
+	
+
+		header #volume {
+			display: block;
+			width: 200px;
+			margin: 10px 20px 10px 15px;
+			width: 100px;
+		}
+
+		header #uploader {
+			float: right;
+			color: white;
+			line-height: 33px;
+		}
